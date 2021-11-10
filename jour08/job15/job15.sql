@@ -1,1 +1,1 @@
-SELECT `prenom`, `nom`, `naissance` FROM `etudiants` WHERE naissance BETWEEN '1998-01-01' AND '2018-01-01';
+SELECT `salle`.`nom`, `etage`.`nom` FROM `etage` INNER JOIN `salle` WHERE etage.id = salle.id
