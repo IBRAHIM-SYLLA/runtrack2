@@ -1,0 +1,1 @@
+SELECT `prenom`, `nom`, `naissance` FROM `etudiants` WHERE DATEDIFF(CURRENT_DATE,naissance) <=365*18;
