@@ -1,0 +1,10 @@
+  OPTION{
+    background-color: rgb(255, 187, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+  SELECT{
+      border-radius: 3px;
+  }
+  body{
+    background-color: black;
+}
